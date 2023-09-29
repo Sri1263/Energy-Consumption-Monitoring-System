@@ -1,0 +1,27 @@
+.loginCardHolder{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+
+.loginCard{
+    height: 50vh;
+    width: 30vw;
+    color: blue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginIcon{
+    height: 30vh;
+    width: 30vh;
+    color: rgba(9,9,121,1) 35%;
+}
+.loginFields{
+    margin: 2vh;
+}
+.loginButton{
+    margin: 2vh;
+}
