@@ -34,7 +34,7 @@ const Login = () => {
                         />
                     </div>
                     <div className='loginFields'>
-                        <Button variant="outlined" size='large' onClick={()=>nav('/dashboard')} >
+                        <Button variant="outlined" size='large' onClick={()=>nav('/user')} >
                             Log Me in    
                         </Button>
                     </div>
