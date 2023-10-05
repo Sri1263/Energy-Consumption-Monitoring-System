@@ -10,6 +10,7 @@
     line-height: 70px;
     color: #ffffff;
     padding: 5vh;
+    font-variant: small-caps;
 }
 
 .bannerParagraph{
@@ -18,7 +19,6 @@
     font-size: 20px;
     color: white;
     padding-top: 2vh;
-    /* padding-bottom: 2vh; */
 }
 
 .bannerCardHolder{
