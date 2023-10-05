@@ -11,7 +11,7 @@ const Login = () => {
     const nav = useNavigate()
     return (
         <div>
-            <NavBar/>
+            <NavBar login={true}/>
             <div className='loginCardHolder'>
                 <div className='loginCard'>
                     <div className='LoginButton' >

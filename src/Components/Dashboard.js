@@ -12,7 +12,7 @@ export default function Dashboard() {
     const [value,setValue] = useState(1)
   return (
     <div>
-        <NavBar loggedIn={true}/>
+        <NavBar login={true}/>
         <div>
             This is my user Dashboard where he will be able to navigate between the tabs ={'>'} Dashboard | Usage | PayBill | UserProfile
         </div>

@@ -8,8 +8,8 @@ const NavBar = (props) => {
         <div className='bar'>
             <button className='navbutton' onClick={()=>navigate('/home')}>Home</button>
             <button className='navbutton' onClick={()=>navigate('/contact')}>Contact</button>
-            <button className='navbutton'>About Us</button>
-                {props.loggedIn?(<></>):(<button className='navbutton' onClick={()=>navigate('/login')}>Log In</button>)}
+            <button className='navbutton' onClick={()=>navigate('/about')}>About Us</button>
+                {props.login?(<></>):(<button className='navbutton' onClick={()=>navigate('/login')}>Log In</button>)}
             </div>
     );
 }
