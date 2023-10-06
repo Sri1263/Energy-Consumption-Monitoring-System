@@ -4,7 +4,6 @@ import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import ElectricMeterIcon from '@mui/icons-material/ElectricMeter';
 import SpeedIcon from '@mui/icons-material/Speed';
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import PersonIcon from '@mui/icons-material/Person';
 import './userlandingpage.css';
 import Dashboard from './Dashboard';
