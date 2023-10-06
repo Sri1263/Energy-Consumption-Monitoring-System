@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './login.css'
-import NavBar from './NavBar';
+import NavBar from '../NavBar';
 import LoginIcon from '@mui/icons-material/Login';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button'
