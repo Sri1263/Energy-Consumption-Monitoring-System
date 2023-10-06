@@ -1,10 +1,8 @@
-.footerBottomNavigation{
+.footer{
     position: absolute;
     bottom: 0;
-    left: 41%;
-}
-.footer{
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;

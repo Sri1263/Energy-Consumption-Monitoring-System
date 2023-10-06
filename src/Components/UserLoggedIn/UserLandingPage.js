@@ -11,13 +11,10 @@ import Usage from './Usage';
 import UserProfile from './UserProfile'
 
 export default function UserLandingPage() {
-    const [value,setValue] = useState(1)
+    const [value,setValue] = useState(0)
   return (
     <div>
         <NavBar login={true}/>
-        <div>
-            This is my user Dashboard where he will be able to navigate between the tabs ={'>'} Dashboard | Usage | PayBill | UserProfile
-        </div>
         <div>
             {
                 {
@@ -27,7 +24,7 @@ export default function UserLandingPage() {
                 }[value]
             }
         </div>
-        <div className='footerBottomNavigation'>
+        <div>
             <BottomNavigation className='footer'
                 // showLabels
                 value={value}
