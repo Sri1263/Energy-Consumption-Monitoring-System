@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
-
+import './about.css'
+import './Sri.PNG'
 export default function About() {
   return (
     <>
@@ -16,7 +17,20 @@ export default function About() {
                 </div>
             </div>
             <div className='teamContainer'>
-                {/* <div className='' */}
+                <div className='ourTeam' >
+                    <div className='image'>
+                        <img src=''/>
+                    </div>
+                    <h3 className='name'>Sri Hari Krishnan</h3>
+                    <p>Full Stack Developer</p>
+                </div>
+                <div className='ourTeam'>
+                    <div className='image'>
+                        <img src=''/>
+                    </div>
+                    <h2 className='name'>Giri Vignesh</h2>
+                    <p>IoT Engineer</p>
+                </div>
             </div>
         </center>
         </div>

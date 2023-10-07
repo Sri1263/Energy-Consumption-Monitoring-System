@@ -8,6 +8,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import CorporateFareIcon from '@mui/icons-material/CorporateFare';
 
 const Contact = () => {
     return (
@@ -17,6 +18,14 @@ const Contact = () => {
                 
                 <div className='ContactLeft'>
                     <List>
+                    <ListItem dense={false}>
+                            <ListItemIcon>
+                                <CorporateFareIcon color='primary' />
+                            </ListItemIcon>
+                            <ListItemText
+                                primary="Energy Monitoring Systems Pvt Lt"
+                            />
+                        </ListItem>
                         <ListItem dense={false}>
                             <ListItemIcon>
                                 <EmailIcon color='primary' />
