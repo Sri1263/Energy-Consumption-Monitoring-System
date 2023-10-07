@@ -1,7 +1,7 @@
-import {React, useState} from 'react'
+import { React, useState } from 'react'
 import './dashboard.css'
 import Chart from 'chart.js/auto'
-import {Pie,Bar} from "react-chartjs-2";
+import { Pie, Bar } from "react-chartjs-2";
 import { CategoryScale } from "chart.js";
 
 Chart.register(CategoryScale)
