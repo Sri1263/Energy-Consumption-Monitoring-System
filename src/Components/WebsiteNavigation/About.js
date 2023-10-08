@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../NavBar'
 import './about.css'
-import './Sri.PNG'
+import Sri from './Sri.PNG'
 export default function About() {
   return (
     <>
@@ -17,16 +17,16 @@ export default function About() {
                 </div>
             </div>
             <div className='teamContainer'>
-                <div className='ourTeam' >
-                    <div className='image'>
-                        <img src=''/>
+                <div className='teamMemberCard' >
+                    <div>
+                        <img src={Sri} className='teamMemberImage' alt='Image Not Found'/>
                     </div>
                     <h3 className='name'>Sri Hari Krishnan</h3>
                     <p>Full Stack Developer</p>
                 </div>
-                <div className='ourTeam'>
-                    <div className='image'>
-                        <img src=''/>
+                <div className='teamMemberCard'>
+                    <div className='teamMemberImage'>
+                        <img src='' alt='Image Not Found'/>
                     </div>
                     <h2 className='name'>Giri Vignesh</h2>
                     <p>IoT Engineer</p>

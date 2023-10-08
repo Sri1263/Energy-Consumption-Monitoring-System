@@ -32,7 +32,7 @@
     color: white;
 }
 
-.ourTeam
+.teamMemberCard
 {
     width: 16vw;
     padding: 3vh;
@@ -43,9 +43,13 @@
     color: black;
 }
 
-.ourTeam:hover{
+.teamMemberCard:hover{
     background-color: rgb(52, 52, 52);
     color: white;
+}
+
+.teamMemberImage{
+    height: 5vh;
 }
 
 .name
