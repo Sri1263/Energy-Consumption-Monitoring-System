@@ -14,28 +14,28 @@ const Banner = () => {
             <div className='bannerCardHolder'>
                 <div className='bannerCard'>
                     <div className='BannerCardImage'>
-                        <img src='https://www.energyly.com/assets/images/icons/installation.png'/>
+                        <img src='https://www.energyly.com/assets/images/icons/installation.png' alt='Image Not Found'/>
                     </div>
                     <h3 className='bannerCardTitle'>Installation</h3>
                     <p>Simple, easy to use and installation time of less than 30 minutes</p>
                 </div>
                 <div className='bannerCard'>
                     <div className='BannerCardImage'>
-                        <img src='https://www.energyly.com/assets/images/icons/config.png'/>
+                        <img src='https://www.energyly.com/assets/images/icons/config.png' alt='Image Not Found'/>
                     </div>
                     <h3 className='bannerCardTitle'>Configuration</h3>
                     <p>User defined settings for all equipment limits & priority based alert</p>
                 </div>
                 <div className='bannerCard'>
                     <div className='BannerCardImage'>
-                        <img src='https://www.energyly.com/assets/images/icons/monitor.png'/>
+                        <img src='https://www.energyly.com/assets/images/icons/monitor.png' alt='Image Not Found'/>
                     </div>
                     <h3 className='bannerCardTitle'>Monitoring</h3>
                     <p>24x7 Real-time energy usage availability via web dashboard & mobile app</p>
                 </div>
                 <div className='bannerCard'>
                     <div className='BannerCardImage'>
-                        <img src='https://www.energyly.com/assets/images/icons/notification.png'/>
+                        <img src='https://www.energyly.com/assets/images/icons/notification.png' alt='Image Not Found'/>
                     </div>
                     <h3 className='bannerCardTitle'>Notifications</h3>
                     <p>Alert users of energy spikes & critical data via SMS, e-mail & Push</p>
