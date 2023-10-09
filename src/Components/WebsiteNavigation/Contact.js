@@ -34,7 +34,7 @@ const Contact = () => {
                                 primary="ecms@xyz.com"
                             />
                         </ListItem>
-                        <ListItem dense={true}>
+                        <ListItem dense={false}>
                             <ListItemIcon>
                                 <PhoneIcon color='primary' />
                             </ListItemIcon>
