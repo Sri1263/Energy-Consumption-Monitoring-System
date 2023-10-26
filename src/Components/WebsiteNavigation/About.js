@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../NavBar'
 import './about.css'
 import Sri from './Sri.PNG'
+import Giri from './Giri.JPG'
 export default function About() {
   return (
     <>
@@ -21,15 +22,19 @@ export default function About() {
                     <div>
                         <img src={Sri} className='teamMemberImage' alt='Image Not Found'/>
                     </div>
-                    <h3 className='name'>Sri Hari Krishnan</h3>
-                    <p>Full Stack Developer</p>
+                    <div className='teamCardContent'>
+                        <div className='name'>Sri Hari Krishnan</div>
+                        <p>Full Stack Developer</p>
+                    </div>
                 </div>
                 <div className='teamMemberCard'>
                     <div className='teamMemberImage'>
-                        <img src='' alt='Image Not Found'/>
+                        <img src={Giri} className='teamMemberImage' alt='Image Not Found'/>
                     </div>
-                    <h2 className='name'>Giri Vignesh</h2>
-                    <p>IoT Engineer</p>
+                    <div className='teamCardContent'>
+                        <div className='name'>Girivignesh</div>
+                        <p>IoT Engineer</p>
+                    </div>
                 </div>
             </div>
         </center>

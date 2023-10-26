@@ -22,7 +22,18 @@ export default function Usage() {
                 //     'rgba(255, 255, 255, 0.6)'
                 //   ],
                 borderWidth: 2,
-                }
+                },
+                {
+                    label: '  SoC ',
+                    data: [26, 27, 22, 22, 21, 24, 26, 24, 27, 22, 20, 27, 28, 22, 21, 29, 29, 27, 29, 26, 28, 25, 27, 25, 25, 23, 27],
+                    //   you can set indiviual colors for each bar
+                    //   backgroundColor: [
+                    //     'rgba(255, 255, 255, 0.6)',
+                    //     'rgba(255, 255, 255, 0.6)',
+                    //     'rgba(255, 255, 255, 0.6)'
+                    //   ],
+                    borderWidth: 2,
+                    }
             ]
         }
     );
@@ -47,7 +58,7 @@ export default function Usage() {
                         display: true,
                         },
                         legend: {
-                        display: false
+                        display: true
                         }
                     }
                     }}
