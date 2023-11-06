@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../NavBar';
+import NavBar from './NavBar';
 import './contact.css'
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';

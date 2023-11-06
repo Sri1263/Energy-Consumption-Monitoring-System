@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../NavBar'
+import NavBar from './NavBar'
 import './about.css'
 import Sri from './Sri.PNG'
 import Giri from './Giri.JPG'
@@ -18,18 +18,18 @@ export default function About() {
                 </div>
             </div>
             <div className='teamContainer'>
-                <div className='teamMemberCard' >
+                <div className='teamMemberCard' title='click to view LinkedIn Profile'  onClick={()=> window.location.href = 'https://www.linkedin.com/in/sri-hari-krishnan/'}>
                     <div>
-                        <img src={Sri} className='teamMemberImage' alt='Image Not Found'/>
+                        <img src={Sri} className='teamMemberImage' alt='Not Found'/>
                     </div>
                     <div className='teamCardContent'>
                         <div className='name'>Sri Hari Krishnan</div>
                         <p>Full Stack Developer</p>
                     </div>
                 </div>
-                <div className='teamMemberCard'>
+                <div className='teamMemberCard' title='click to view LinkedIn Profile' onClick={()=> window.location.href = 'https://www.linkedin.com/in/mb-giri-vignesh/'}>
                     <div className='teamMemberImage'>
-                        <img src={Giri} className='teamMemberImage' alt='Image Not Found'/>
+                        <img src={Giri} className='teamMemberImage' alt='Not Found'/>
                     </div>
                     <div className='teamCardContent'>
                         <div className='name'>Girivignesh</div>

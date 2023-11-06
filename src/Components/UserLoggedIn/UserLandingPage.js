@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import NavBar from '../NavBar';
+import NavBar from '../WebsiteNavigation/NavBar';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import ElectricMeterIcon from '@mui/icons-material/ElectricMeter';

@@ -45,6 +45,7 @@
     color: black;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .teamMemberCard:hover{

@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css'
-import NavBar from '../NavBar';
+import NavBar from './NavBar';
 import Banner from './Banner';
 
 const Home = () => {
