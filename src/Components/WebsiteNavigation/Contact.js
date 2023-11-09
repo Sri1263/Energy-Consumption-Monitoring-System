@@ -47,7 +47,7 @@ const Contact = () => {
                                 <BusinessIcon color='primary' />
                             </ListItemIcon>
                             <ListItemText
-                                primary="#6, 2nd Floor, 4th Street- Selva Nagar, Velachery, Chennai-600042, Tamilnadu, India"
+                                primary="LTC - 206, SASTRA Deemed University, Thirumalaisamudram, Thanjavur - 613401"
                             />
                         </ListItem>
                     </List>
