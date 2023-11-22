@@ -18,24 +18,29 @@ export default function About() {
                 </div>
             </div>
             <div className='teamContainer'>
-                <div className='teamMemberCard' title='click to view LinkedIn Profile'  onClick={()=> window.location.href = 'https://www.linkedin.com/in/sri-hari-krishnan/'}>
-                    <div>
-                        <img src={Sri} className='teamMemberImage' alt='Not Found'/>
+                <a href='https://www.linkedin.com/in/sri-hari-krishnan/' target='_blank' rel='noreferrer' className='linkedinAnchor' >
+                    <div className='teamMemberCard' title='click to view LinkedIn Profile' >
+                        <div>
+                            <img src={Sri} className='teamMemberImage' alt='Not Found'/>
+                        </div>
+                        <div className='teamCardContent'>
+                            <div className='name'>Sri Hari Krishnan</div>
+                            <p>Full Stack Developer</p>
+                        </div>
                     </div>
-                    <div className='teamCardContent'>
-                        <div className='name'>Sri Hari Krishnan</div>
-                        <p>Full Stack Developer</p>
+                </a>
+                    
+                <a href='https://www.linkedin.com/in/mb-giri-vignesh/' target='_blank' rel='noreferrer' className='linkedinAnchor' >
+                    <div className='teamMemberCard' title='click to view LinkedIn Profile' >
+                        <div className='teamMemberImage'>
+                            <img src={Giri} className='teamMemberImage' alt='Not Found'/>
+                        </div>
+                        <div className='teamCardContent'>
+                            <div className='name'>Girivignesh</div>
+                            <p>IoT Engineer</p>
+                        </div>
                     </div>
-                </div>
-                <div className='teamMemberCard' title='click to view LinkedIn Profile' onClick={()=> window.location.href = 'https://www.linkedin.com/in/mb-giri-vignesh/'}>
-                    <div className='teamMemberImage'>
-                        <img src={Giri} className='teamMemberImage' alt='Not Found'/>
-                    </div>
-                    <div className='teamCardContent'>
-                        <div className='name'>Girivignesh</div>
-                        <p>IoT Engineer</p>
-                    </div>
-                </div>
+                </a>
             </div>
         </center>
         </div>

@@ -5,6 +5,7 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import ElectricMeterIcon from '@mui/icons-material/ElectricMeter';
 import SpeedIcon from '@mui/icons-material/Speed';
 import PersonIcon from '@mui/icons-material/Person';
+import ReceiptIcon from '@mui/icons-material/Receipt';
 import './userlandingpage.css';
 import Dashboard from './Dashboard';
 import Usage from './Usage'; 
@@ -34,7 +35,7 @@ export default function UserLandingPage() {
             >
                 <BottomNavigationAction label="DASHBOARD" icon={<SpeedIcon />} />
                 <BottomNavigationAction label="USAGE" icon={<ElectricMeterIcon />} />
-                <BottomNavigationAction label="USERPROFILE" icon={<PersonIcon />} />
+                <BottomNavigationAction label="BILL" icon={<ReceiptIcon />} />
             </BottomNavigation>
         </div>
     </div>

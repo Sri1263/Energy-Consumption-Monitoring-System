@@ -5,17 +5,39 @@
     align-items: center;
     justify-content: center;
     height: 80vh;
+    background-image: ;
 }
 
 .profileCard{
-    width: 30%;
-    height: 70%;
+    width: 45%;
+    height: 80%;
+    border: solid black;
     border-radius: 5px;
-    background-color: aqua;
+    background-color: rgb(224, 231, 231);
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .profileIcon{
     height: 10vh;
+}
+
+.btn
+{
+    background-color: aqua;
+    font-size: large;
+    padding: 15px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tableData
+{
+    /* border: 2px solid black; */
+    font-size: large;
+    width: 40%;
+    height: 8%;
+    padding: 15px ;
+    text-align: center;
 }

@@ -9,6 +9,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import CorporateFareIcon from '@mui/icons-material/CorporateFare';
+import Map from './map.png'
 
 const Contact = () => {
     return (
@@ -31,7 +32,7 @@ const Contact = () => {
                                 <EmailIcon color='primary' />
                             </ListItemIcon>
                             <ListItemText
-                                primary="ecms@xyz.com"
+                                primary="ecms@sastra.com"
                             />
                         </ListItem>
                         <ListItem dense={false}>
@@ -51,6 +52,12 @@ const Contact = () => {
                             />
                         </ListItem>
                     </List>
+                </div>
+
+                <div className='ContactRight'>
+                    <a href='https://shorturl.at/adjlY' target='_blank' rel='noreferrer'>
+                        <img src={Map} className='mapImage' alt='Not Found'/>
+                    </a>
                 </div>
                 
             </div>

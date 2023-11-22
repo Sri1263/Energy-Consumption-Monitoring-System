@@ -4,7 +4,7 @@
     flex-direction: row;
     background-color: white;
     color: aliceblue;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .ContactLeft{
@@ -30,4 +30,12 @@
 .ContactDetails{
     font-size: larger;
     font-style: italic;
+}
+.ContactRight
+{
+  width: 45vw;
+  border-radius: 55px;  
+}
+.mapImage{
+    max-width: 100%;
 }
