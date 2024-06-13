@@ -61,17 +61,17 @@ export default function Usage() {
         </div>
         <div className='departmentsContainer'>
             <div className='departmentsHolder'>
-                <button className='department' name='  SoC ' onClick={()=>
+                <button className='department-soc' name='  SoC ' onClick={()=>
                     {
                         let toggle = !SoCData.hidden
                         setSoCData((data)=>({...data,hidden:toggle}))}
                     }>SoC</button>
-                <button className='department' name='  LTC ' onClick={()=>
+                <button className='department-ltc' name='  LTC ' onClick={()=>
                     {
                         let toggle = !LTCData.hidden
                         setLTCData((data)=>({...data,hidden:toggle}))}
                     }>LTC</button>
-                <button className='department' name='  VKJ ' onClick={()=>
+                <button className='department-vkj' name='  VKJ ' onClick={()=>
                     {
                         let toggle = !VKJData.hidden
                         setVKJData((data)=>({...data,hidden:toggle}))}

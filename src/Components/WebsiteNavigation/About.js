@@ -25,7 +25,7 @@ export default function About() {
                         </div>
                         <div className='teamCardContent'>
                             <div className='name'>Sri Hari Krishnan</div>
-                            <p>Full Stack Developer</p>
+                            <p>IoT Engineer</p>
                         </div>
                     </div>
                 </a>
@@ -37,7 +37,7 @@ export default function About() {
                         </div>
                         <div className='teamCardContent'>
                             <div className='name'>Girivignesh</div>
-                            <p>IoT Engineer</p>
+                            <p>Full Stack Developer</p>
                         </div>
                     </div>
                 </a>

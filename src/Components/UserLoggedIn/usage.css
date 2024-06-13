@@ -32,13 +32,33 @@
     width: 15%;
     height: 65vh;
 }
-.department{
+.department-soc{
     height: 7vh;
     width: 80%;
     font-weight: 600;
     font-size: larger;
     text-shadow: black;
     background-color: rgb(95, 228, 233);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.department-ltc{
+    height: 7vh;
+    width: 80%;
+    font-weight: 600;
+    font-size: larger;
+    text-shadow: black;
+    background-color: rgb(235, 59, 77);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.department-vkj{
+    height: 7vh;
+    width: 80%;
+    font-weight: 600;
+    font-size: larger;
+    text-shadow: black;
+    background-color: rgb(228, 92, 28);
     border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
